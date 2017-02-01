@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>your order</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/global.css" />
+     <link rel="stylesheet" href="css/normalize.css" />
+</head>
+<body>
+<header>
+    <img width="400"src="https://media.cmcdn.net/c3f53bba8766e28d9be3/33560025/1222x1200.webp"/>
+    <h1 class="title">your darling thrifted outfit- wow !</h1>
+</header>
+<main>
+<form method="POST"action=https://formspree.io/kelsey.vaught92@gmail.com>
+<input type="hidden" name="product" value="thriftoutfit"/>
+    <hr/>
+    <label for="Jsize">Jacket size</label><br/>
+    <select id="Jsize"name="Jacket size">
+        <option value="XS">"XSMALL"</option>
+        <option value="SM">"SMALL"</option>
+        <option value="MED">"MEDIUM"</option>
+        <option value="LG">"LARGE"</option>
+        <option value="XL">"XLARGE"</option></select><br/><br/>
+
+        <label for="pink">Jacket Colour</label><br/>
+        <input type="radio" id="pink" name="options" value="pink" />
+        <label for="pink">Pink</label>
+        <br/><br/>
+        <input type="radio" id="scarlet" name="options" value="scarlet" />
+        <label for="scarlet">Scarlet</label><br/><br/>
+        <input type="radio" id="bleu" name="options" value="bleu" />
+        <label for="bleu">Powder Bleu</label><br/><br/>
+        
+        
+        <hr/>
+        
+        <label for="Ssize">Sweater size</label><br/>
+        <select id="Ssize"name="Sweater size">
+            <option value="XS">"XSMALL"</option>
+            <option value="SM">"SMALL"</option>
+            <option value="MED">"MEDIUM"</option>
+            <option value="LG">"LARGE"</option>
+            <option value="XL">"XLARGE"</option><br/>
+    </select><br/>
+
+    <label for="Sksize">Skirt size</label><br/>
+        <select id="Sksize"name="Skirt size">
+            <option value="one">"0-2"</option>
+            <option value="two">"4-6"</option>
+            <option value="three">"8-10"</option>
+            <option value="four">"12-14"</option>
+            <option value="five">"16-18"</option>
+    </select><br/>
+
+     <label for="Shsize">Shoe size</label><br/>
+        <select id="Shsize"name="Shoe size">
+            <option value="one">"6-6.5"</option>
+            <option value="two">"7-7.5"</option>
+            <option value="three">"8-8.5"</option>
+            <option value="four">"9-9.5"</option>
+            <option value="five">"10-10.5"</option>
+            <option value="six">"11-11.5"</option>
+            <option value="sev">"12-12.5"</option>
+    </select><br/><br/>
+    <hr/>
+    <label for="howmany">Quantity</label><br/>
+        <input type="text" id="howmany" name="Quantity" placeholder="Example: 1" /><br/><br/>
+        <hr/>
+         <label for="firstName">Shipping Info:</label><br/><br/>
+         <label for="firstName">First Name</label><br/>
+        <input type="text" id="firstName" name="first_name" placeholder="Example: Bridget"/><br/>
+
+         <label for="lastname">Last Name</label><br/>
+        <input type="text" id="lastName" name="last_name" placeholder="Example: Bardot"/><br/>
+
+        <label for="email">Email</label><br/>
+        <input type="text" id="email" name="email"/><br/>
+
+        <label for="phone">Telephone Number</label><br/>
+        <input type="text" id="phone" name="phone"/><br/>
+        <br/>
+        <hr/>
+        <label for="address">Street Address</label><br/>
+        <input type="text" id="address" name="address"/><br/>
+
+        <label for="city">City</label><br/>
+        <input type="text" id="city" name="city"/><br/>
+        
+        <label for="state">State</label><br/>
+        <select id="state"name="State">
+            <option value="IN">"Indiana"</option>
+            <option value="NY">"New York"</option>
+            <option value="CA">"California"</option>
+            <option value="CO">"Colorado"</option>
+            <option value="VE">"Vermont"</option>
+            <option value="WA">"Washington"</option>
+            <option value="AL">"Alaska"</option>
+    </select><br/>
+
+      <label for="zip">Zipcode</label><br/>
+        <input type="text" id="zip" name="zip"/><br/>
+
+        <label for="comment">Special Instructions</label><br/>
+        <textarea name="comment"></textarea>
+
+        <hr/>
+
+        <button type="submit">Submit</button>
+        <hr/>
+
+
+    </form>
