@@ -1,4 +1,4 @@
-body {
+.bodythx {
     animation-delay: 1.2s;
     background-image: url("../vintage_wallpaper.jpg");
     background-attachment: fixed;}
@@ -11,7 +11,7 @@ max-width:400px;
 margin: 0 auto;
 font-family: 'Monoton', cursive;}
 
-.thanks{
+.thanks {
     font-variant: small-caps;
     text-align: center;
     color:#B55400;

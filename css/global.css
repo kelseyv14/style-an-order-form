@@ -74,8 +74,22 @@ box-shadow: inset 2px 2px 5px rgba(0,0,0,0.1);
     transform: scale(5);
 }
 
-h1{
+.bodythx {
+    animation-delay: 1.2s;
+    background-image: url("../vintage_wallpaper.jpg");
+    background-attachment: fixed;}
 
-    
+
+.tycard { 
+box-shadow: 0px 2px 10px#F2C9DC;
+background-color: #F2B6DC;
+max-width:400px;
+margin: 0 auto;
+font-family: 'Monoton', cursive;}
+
+.thanks {
+    font-variant: small-caps;
+    text-align: center;
+    color:#B55400;
 }
 
